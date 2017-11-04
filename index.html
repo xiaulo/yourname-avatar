@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>你的名字</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+    <section class="container">
+        <div class="container-wrap">
+            <canvas id="canvas" width="250" height="250">你的浏览器太旧啦！</canvas>
+            <!-- 控制块 -->
+            <section class="control">
+                <select id="control-select">
+                    <option value="立花泷">立花泷</option>
+                    <option value="宫水三叶">宫水三叶</option>
+                </select>
+                <input type="text" placeholder="要写的字" id="control-name" maxlength="3"/>
+                <button id="control-create">生成图片</button> 
+                <p class="control-result"></p>
+            </section>
+        </div>
+    </section>
+    <script src="scripts/common.js"></script>
+</body>
+</html>
