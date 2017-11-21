@@ -32,7 +32,7 @@ color:#a2a2a2;
 .container{
     width: 80%;
     max-width: 300px;
-    margin: 200px auto 0px auto;
+    margin: 10% auto 0px auto;
     background: #fff;
     border-radius: 2px;
     overflow: hidden;
@@ -102,4 +102,13 @@ color:#a2a2a2;
 .control-result{
     text-align: center;
     font-size: 14px;
+}
+
+.bottom-description{
+    font-size: 14px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.bottom-description a{
+    color: #fff;
 }
