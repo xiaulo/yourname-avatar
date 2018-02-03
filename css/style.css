@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+input,button,select,textarea{outline:none;border: none;}
+
+body,html{
+    height: 100%;
+    overflow: hidden
+}
+
+body{
+    background: url("../images/background.jpg") no-repeat center center;
+    background-size:cover;
+    font: 16px Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+}
+
+::-webkit-input-placeholder{ 
+color:#a2a2a2;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color:#a2a2a2;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color:#a2a2a2;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color:#a2a2a2;
+}
+
+.container{
+    width: 80%;
+    max-width: 300px;
+    margin: 10% auto 0px auto;
+    background: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.container-wrap{
+    margin: 20px;
+}
+
+#canvas{
+    border-radius: 2px;
+    width: 100%;
+}
+
+#control-select{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
+    font-size: 16px;
+    text-indent: 10px;
+    border: 1px solid #a2a2a2;
+    color: #a2a2a2;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+#control-name{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    text-indent: 10px;
+    border: 1px solid #a2a2a2;
+    color: #a2a2a2;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+#control-select,#control-name,#control-create{
+    border-radius: 2px;
+}
+
+#control-select:focus,#control-name:focus{
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+#control-create{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #a2a2a2;
+    background: #000000;
+    color: #fff;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.control-result{
+    text-align: center;
+    font-size: 14px;
+}
+
+.bottom-description{
+    font-size: 14px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.bottom-description a{
+    color: #fff;
+}
