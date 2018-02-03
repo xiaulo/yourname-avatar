@@ -1,7 +1,9 @@
-## 喂，你是谁啊？
+喂，你是谁啊？
+----
 
-Canvas写的一个（你的名字）电影片段图片加字。<br/>
-文字竖排问题参考：http://blog.csdn.net/m8705/article/details/52995099
+Canvas 实现的一个小玩意233.
 
-<a href="http://clayeo.applinzi.com/yourname-avatar/" title="线上地址" target="_blank">线上地址</a>
+<pre>Tip：clone下来的源码要在服务器环境下浏览（由于canvas.toDataURL跨域问题）</pre>
+
+![Image text](https://github.com/Clayeo/yourname-avatar/images/demo.png)
 
